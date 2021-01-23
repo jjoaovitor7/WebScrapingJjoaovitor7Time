@@ -3,7 +3,6 @@ from getTime import getTime
 
 app = FlaskAPI(__name__)
 
-
 @app.route('/time/', methods=['GET'])
 def time():
     return { 'time': getTime()}
