@@ -1,0 +1,8 @@
+"""Requisição GET na rota /time"""
+---
+/time:
+get:
+  description: "Requisição GET na rota /time"
+  responses:
+    200:
+      description: "OK."
